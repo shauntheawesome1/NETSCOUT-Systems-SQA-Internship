@@ -1,5 +1,5 @@
 # ipChange-Server-Client-Socket-Communication
-Communication from a Server to/fro a Client, while simultaneously changing the bound IP Address.
+Communication from a Server to/from a Client, while simultaneously changing the bound IP Address.
 
 In today's world, security is a major aspect of any communication. When a server and client communicate, only they should know the secure line on which they are talking on. This program creates a Client and a Server using socket progeramming methods in Java. 
 
