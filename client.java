@@ -6,7 +6,7 @@ public class shaun_client{
 	private static Socket socket;
 	public static void main(String[] args) throws IOException {
 		String sent, reply;
-		BufferedReader r = new BufferedReader(new FileReader("filename"));
+		BufferedReader r = new BufferedReader(new FileReader("ipFile.csv"));
 		String line = "";
 
 		while((line = r.readLine()) != null){
