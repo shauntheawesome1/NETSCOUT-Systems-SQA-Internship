@@ -6,7 +6,7 @@ import java.net.*;
 public class server{
 	private static Socket socket;
 	public static void main(String[] args) throws IOException {
-		BufferedReader r = new BufferedReader(new FileReader("fileName"));
+		BufferedReader r = new BufferedReader(new FileReader("ipFile.csv"));
 		String line = "";
 		int count = 0;
 
